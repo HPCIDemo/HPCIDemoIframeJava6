@@ -36,10 +36,10 @@ Prerequisites
 
 ————————————
 
-Java JDK 1.6
-Browser
-Terminal/Command Prompt
-HPCIDemoIframeJava6.war and Jetty-runner.jar (can be downloaded from www.hostedpci.com)
+1. Java JDK 1.6
+2. Browser
+3. Terminal/Command Prompt
+4. HPCIDemoIframeJava6.war and Jetty-runner.jar (can be downloaded from www.hostedpci.com)
 
 Installation
 
@@ -77,6 +77,9 @@ Contacts
 ————————
 
 HostedPCI Inc.
+
 http://www.hostedpci.com/
+
 sales@hostedpci.com
+
 1-866-850-3608
