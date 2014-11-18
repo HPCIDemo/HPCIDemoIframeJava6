@@ -1,12 +1,16 @@
 HostedPCI Demo Iframe for Java 6 October 6 2014
 
 What is it?
+
 ———————————
+
 The HostedPCI Demo Iframe app is a small tool to help HostedPCI customers visualize the power, potential and how HostedPCI can help them become PCI compliant as affordable as possible and as easy as possible. Our motto is, your vision, our reality.
 By installing HostedPCI Demo Iframe you will see what it can do for you, how easy it is to implement it on your eCommerce site and will show you how to do it if you get stuck implementing it.
 
 How does it work?
+
 ————————————————
+
 1. eCommerce loads the page.
 2. Page requests a new iframe from HostedPCI.
 3. HostedPCI verifies the website and webpage are correct.
@@ -21,21 +25,28 @@ How does it work?
 12. eCommerce page can then collect the response with all the information and display it back to the user.
 
 Release Version
+
 ——————————————
+
 1.0 Oct 6 2014
 
 Further details can be found at http://www.hostedpci.com
 
 Prerequisites 
+
 ————————————
+
 Java JDK 1.6
 Browser
 Terminal/Command Prompt
 HPCIDemoIframeJava6.war and Jetty-runner.jar (can be downloaded from www.hostedpci.com)
 
 Installation
+
 ———————————-
+
 MacOs: 
+
 1. Download HPCIDemoIframe.war and Jetty-runner.jar and place them in the same folder.
 2. Open terminal and go to the folder you placed the two files.
 3. Type “java -jar jetty-runner.jar --stats unsecure --log yyyy_mm_dd-requests.log --port 8799 --out yyyy_mm_dd-output.txt HPCDemoIframeJava6.war”
@@ -47,7 +58,9 @@ MacOs:
 6. Fill in the payment form, you can use dummy visa number 4111 1111 1111 1111 cvv: any 3 digits, Expiry date must be date in the present or date in the future.
 
 FAQ
+
 ———
+
 1. If you want to use a different port (not 8799) the file form.jsp has to reflect that change inside the iframe in 2 places, for example:
 src="https://cc.hostedpci.com/iSynSApp/showPxyPage!ccFrame.action?pgmode1=prod&locationName=javasample1&sid=528160&fullParentHost=http://localhost:8799&fullParentQStr=/form.jsp” 
 Needs to become: 
@@ -60,7 +73,9 @@ Assuming port was changed from 8799 to 9090.
 4. Must have JDK installed, doesn’t work with JRE.
 
 Contacts
+
 ————————
+
 HostedPCI Inc.
 http://www.hostedpci.com/
 sales@hostedpci.com
